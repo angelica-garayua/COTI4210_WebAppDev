@@ -1,0 +1,65 @@
+ h1 {
+     font-family: 'Times New Roman', Times, serif;
+     text-decoration: wavy;
+ }
+
+ header {
+     background-color: #768340;
+     color: #F8F1E9;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 20px;
+     text-align: center;
+
+ }
+
+ body {
+     background-color: #768340;
+     color: #F8F1E9;
+ }
+
+ /* style for a specific section using the #sectionName */
+ #chronicles {
+     background-color: #F8F1E9;
+     font-family: 'Times New Roman', Times, serif;
+     color: #604800;
+     padding: 15px;
+     margin: 20px 0;
+ }
+
+ #chronicles h2 {
+     text-align: center;
+     color: #768340;
+     background-color: #F8F1E9;
+     font-weight: normal;
+
+
+ }
+/* foreign outside code for a specific look */
+ ul {
+     background-color: #60693a;
+     list-style-type: none;
+     /* Removes default bullets */
+     margin: 0;
+     padding: 10px;
+     display: flex;
+     /* Arranges list items horizontally */
+     justify-content: space-around;
+     /* Distributes items evenly */
+ }
+
+ li a {
+     display: block;
+     /* Makes the entire link area clickable */
+     padding: 14px 16px;
+     text-decoration: none;
+     /* Removes default link underlines */
+     color: white;
+ }
+
+ /* end foreign code */
+ 
+ footer {
+     text-align: center;
+     padding: 1px;
+     font-family: 'Times New Roman', Times, serif;
+ }
