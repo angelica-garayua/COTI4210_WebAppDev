@@ -1,129 +1,33 @@
 <!DOCTYPE html>
 <!-- Nombre: Angélica C. Garayúa -->
 <!-- Número de estudiante: 843-22-1054-->
-<!-- Perfil with Embedded CSS -->
-
-<!--COLOR PALETTE
-lint #D7D7A8
-teal green #00A385
-forest green #00493A
-black #001F17
-__________ a lime affair
-sand dollar #DFDCC6
-celadon #CBEACB
-baby blue #A7CEE9
-burnt sienna #B6694A
-___________ baby's first easter
-dark blue #0A2535
-spearmint #2E765E
-sage green #88A68A
-celadon  #B3C4A6
-____________ backyard ferns
--->
+<!-- Perfil with Inline CSS -->
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Estudiantil - Angélica C. Garayúa</title>
-    <style>
-        h1 {
-            color: #DFDCC6;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-        }
 
-        h2 {
-            color: #2E765E;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-        }
-
-        h3 {
-            color: #2E765E;
-            font-family: Arial, Helvetica, sans-serif;
-            font-style: italic; 
-
-        }
-
-        header {
-            text-align: center;
-            background-color: #00493A;
-            color: #DFDCC6;
-            font-family: Arial, Helvetica, sans-serif;
-            padding: 5px;
-            
-            p{
-                font-style: italic;
-            }
-        }
-
-        body {
-            background-color: #DFDCC6;
-            color: #001F17;
-            font-family: 'Times New Roman', Times, serif; 
-        }
-
-        nav {
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
-
-            ul {
-                background-color: #2E765E;
-                list-style-type: none;
-                /* Removes default bullets */
-                margin: 0;
-                padding: 5px;
-                display: flex;
-                /* Arranges list items horizontally */
-                justify-content: space-around;
-                /* Distributes items evenly */
-            }
-
-            li a {
-                display: block;
-                /* Makes the entire link area clickable */
-                padding: 14px 16px;
-                text-decoration: none;
-                /* Removes default link underlines */
-                color: #CBEACB;
-            }/* end foreign code */
-        }
-        
-        p{font-size: large;}
-
-        footer {
-            background-color: #DFDCC6;
-            color: #00493A;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: small;
-            padding: 1px;
-        }
-        /*outside code for a specific look */
-    </style>
 </head>
 
-<body>
+<body  style = "background-color:#DFDCC6; color: #001F17; font-family: 'Times New Roman', Times, serif;">
     <!-- Header con descripción -->
-    <header>
-
-        <h1>Perfil - Angélica C. Garayúa</h1>
-        <p>Estudiante de Ciencias en Computadoras y
+    <header style = "text-align: center; background-color: #00493A; color: #DFDCC6; font-family: Arial, Helvetica, sans-serif; padding: 5px;">
+        <!--Use of in line css style-->
+        <h1 style="color: #DFDCC6; font-family: Arial, Helvetica, sans-serif; text-align: center;">Perfil - Angélica C. Garayúa</h1>
+        <p style="font-size:large; font-style: italic;">Estudiante de Ciencias en Computadoras y
             Sistemas de Información en la Universidad de Puerto Rico</p>
     </header>
     <!-- Navegación -->
-    <nav>
-        <ul>
-            <li><a href="#sobre-mi">SOBRE MI</a></li>
-            <li><a href="#proyectos">PROYECTOS</a></li>
-            <li><a href="#contacto">CONTACTO</a></li>
-        </ul>
+    <nav style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; background-color: #2E765E; padding: 16px 16px; justify-content: space-around; display: flex;">
+        <a style= "color: #CBEACB" href="#sobre-mi">SOBRE MI</a>&nbsp;&nbsp;<a style= "color: #CBEACB" href="#proyectos">PROYECTOS</a>&nbsp;&nbsp;<a style= "color: #CBEACB" href="#contacto">CONTACTO</a>
     </nav>
     <!-- Sección principal con información personal y proyectos -->
     <main>
         <!--Seccion sobre mi repetida & updated-->
         <section id="sobre-mi">
-            <h2>Sobre mí</h2>
+            <h2 style="color: #2E765E; font-family: Arial, Helvetica, sans-serif; text-align: center;">Sobre mí</h2>
             <p style="font-size: large;"> Estoy en mi cuarto año de estudio en el bachillerato de Ciencias en
                 Computadoras y Sistemas de
                 Información
@@ -146,10 +50,10 @@ ____________ backyard ferns
         </section>
         <!-- Sección de proyectos -->
         <section id="proyectos">
-            <h2>Proyectos</h2>
+            <h2 style="color: #2E765E; font-family: Arial, Helvetica, sans-serif; text-align: center;">Proyectos</h2>
             <article>
                 <!--Proyecto 1-->
-                <h3>Mya's Cristalized Tarot</h3>
+                <h3 style="color: #2E765E; font-family: Arial, Helvetica, sans-serif; font-style: italic;">Mya's Cristalized Tarot</h3>
                 <p>Este proyecto consiste en la creación de un sitio web para una microempresa dedicada a la venta de
                     lecturas del Tarot,
                     limpiezas espirituales, y creación de contenido relacionado a la espiritualidad. Mya es una
@@ -162,7 +66,7 @@ ____________ backyard ferns
             </article>
             <article>
                 <!--Proyecto 2-->
-                <h3>Planificación Estratégica de Spotlitgh Cafe & Theater</h3>
+                <h3 style="color: #2E765E; font-family: Arial, Helvetica, sans-serif; font-style: italic;">Planificación Estratégica de Spotlitgh Cafe & Theater</h3>
                 <p>Como parte de la clase de Administración de Pequeñas Empresas, se realizará un Plan Estratégico para
                     esta microempresa.
                     Spotlight Cafe & Theater es un café-teatro local con la visión de ofrecer una experiencia artística
@@ -174,7 +78,7 @@ ____________ backyard ferns
         </section>
     </main>
     <aside>
-        <h2>Habilidades Técnicas</h2>
+        <h2 style="color: #2E765E; font-family: Arial, Helvetica, sans-serif; text-align: center;">Habilidades Técnicas</h2>
         <ul>
             <li>Liderazgo</li>
             <li>Planificación</li>
@@ -185,14 +89,12 @@ ____________ backyard ferns
 
         </ul>
     </aside>
-    <footer>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Email: <a href="mailto:angelica.garayua@upr.edu">angelica.garayua@upr.edu</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/angélica-garayúa" target="_blank">LinkedIn</a></p>
-            <p>GitHub: <a href="https://github.com/angelica-garayua" target="_blank">GitHub</a></p>
-        </section>
-        <p><small> Copyright &copy; 2026 Angélica C. Garayúa. All rights reserved.</small></p>
+    <footer style ="background-color: #DFDCC6; color: #00493A; font-family: 'Times New Roman', Times, serif; padding: 1px;">
+        <h2 style="color: #2E765E; font-family: Arial, Helvetica, sans-serif; text-align: center;" id="contacto">Contacto</h2>
+        <p>Email: <a href="mailto:angelica.garayua@upr.edu">angelica.garayua@upr.edu</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/angélica-garayúa" target="_blank">LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/angelica-garayua" target="_blank">GitHub</a></p>
+        <p style ="font-size: small; text-align: center"><small> Copyright &copy; 2026 Angélica C. Garayúa. All rights reserved.</small></p>
     </footer>
 </body>
 
