@@ -1,0 +1,70 @@
+        h1 {
+            color: #DFDCC6;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2E765E;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h3 {
+            color: #2E765E;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic; 
+
+        }
+
+        header {
+            text-align: center;
+            background-color: #00493A;
+            color: #DFDCC6;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 5px;
+        }    
+
+        body {
+            background-color: #DFDCC6;
+            color: #001F17;
+            font-family: 'Times New Roman', Times, serif; 
+        }
+
+        nav {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            
+        }
+            ul {
+                background-color: #2E765E;
+                list-style-type: none;
+                /* Removes default bullets */
+                margin: 0;
+                padding: 5px;
+                display: flex;
+                /* Arranges list items horizontally */
+                justify-content: space-around;
+                /* Distributes items evenly */
+            }
+
+            li a {
+                display: block;
+                /* Makes the entire link area clickable */
+                padding: 14px 16px;
+                text-decoration: none;
+                /* Removes default link underlines */
+                color: #CBEACB;
+            }/* end foreign code */
+        
+        
+        p{font-size: large;}
+
+        footer {
+            background-color: #DFDCC6;
+            color: #00493A;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: small;
+            padding: 1px;
+        }
+        /*outside code for a specific look */
